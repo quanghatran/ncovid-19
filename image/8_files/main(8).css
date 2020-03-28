@@ -1,0 +1,59 @@
+.list-vote-item a {
+  cursor: pointer; }
+
+.aui h4.headerBoxCenter {
+  font-family: 'Roboto Condensed';
+  font-size: 21px;
+  color: #e70000;
+  border-bottom: 3px solid #efefef;
+  padding-bottom: 7px;
+  margin-left: 8px; }
+
+.aui h5.text-bold {
+  font-weight: bold; }
+
+.surveyBox {
+  padding-left: 7px; }
+
+.surveyBox label {
+  display: initial;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: normal; }
+
+.aui a.CommandButton {
+  color: red;
+  text-decoration: none;
+  font-weight: bold; }
+
+.aui a.CommandButton:hover {
+  color: darkblue !important; }
+
+.aui .surveyBox label {
+  display: initial;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: normal; }
+
+.aui .boxNewsCenter .othernewsBox li {
+  background: none;
+  padding-left: 8px; }
+
+.boxNewsCenter .othernewsBox li {
+  background: none;
+  padding-left: 8px; }
+
+.othernewsBox li {
+  padding-bottom: 5px;
+  background: url(../images/icon-li.jpg) left top 11px no-repeat;
+  padding-top: 5px;
+  padding-left: 15px; }
+
+label.rate {
+  background: lightgray;
+  display: inline-block;
+  padding: 5px;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold; }
+

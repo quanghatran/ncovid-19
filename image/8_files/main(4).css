@@ -1,0 +1,243 @@
+/* Always set the map height explicitly to define the size of the div
+		* element that contains the map. */
+#camera-map {
+  height: 580px;
+  max-width: 100%;
+  width: 100%; }
+
+#camera-other {
+  height: 50%;
+  max-width: 100%;
+  width: 100%;
+  background: #e3e6e9; }
+
+.map-popup {
+  width: 170px; }
+
+.map-popup-cover {
+  width: 100%;
+  max-width: 100%;
+  height: 48px; }
+
+.map-popup-cover img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box; }
+
+.map-popup-title {
+  font-size: 110%;
+  width: 100%;
+  margin-top: 5px;
+  font-weight: 500; }
+
+.map-popup-type {
+  width: 100%;
+  font-size: 95%; }
+
+.map-popup-des {
+  margin-top: 5px;
+  width: 100%;
+  text-align: justify; }
+
+.map-popup-des span.bold {
+  font-weight: 500; }
+
+.map-popup-item {
+  width: 100%;
+  margin-top: 5px;
+  cursor: pointer; }
+
+.map-popup-item img {
+  width: 40%;
+  max-width: 40%;
+  display: inline-table; }
+
+.map-popup-item div {
+  width: 60%;
+  max-width: 60%;
+  display: inline-table;
+  vertical-align: top;
+  box-sizing: border-box;
+  padding: 3px; }
+
+#camera-overlay {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000; }
+
+.map-overlay {
+  opacity: 0.5;
+  background-color: #ccc;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 1000; }
+
+.camera-frame {
+  z-index: 1001;
+  width: 60%;
+  position: fixed;
+  left: 20%;
+  right: 20%;
+  top: 24px;
+  box-sizing: border-box;
+  background: white;
+  padding: 10px;
+  bottom: 10px; }
+
+@media (max-width: 767px) {
+  .camera-frame {
+    z-index: 1001;
+    width: 92%;
+    position: fixed;
+    left: 4%;
+    right: 4%;
+    top: 24px;
+    box-sizing: border-box;
+    background: white;
+    padding: 10px;
+    bottom: 10px; } }
+.camera-frame .close {
+  position: absolute;
+  right: -16px;
+  top: -16px;
+  width: 32px;
+  height: 32px;
+  background: url("../images/cancel.png");
+  cursor: pointer; }
+
+/* Always set the map height explicitly to define the size of the div
+              * element that contains the map. */
+/*#camera-map {
+    height: 100%;
+}*/
+/* Optional: Makes the sample page fill the window. */
+#description {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300; }
+
+#infowindow-content .title {
+  font-weight: bold; }
+
+#infowindow-content {
+  display: none; }
+
+#camera-map #infowindow-content {
+  display: inline; }
+
+.pac-card {
+  margin: 10px 10px 0 0;
+  border-radius: 2px 0 0 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  font-family: Roboto; }
+
+#pac-container {
+  padding-bottom: 12px;
+  margin-right: 12px; }
+
+.pac-controls {
+  display: inline-block;
+  padding: 5px 11px; }
+
+.pac-controls label {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 300; }
+
+#pac-input {
+  background-color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 12px;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  width: 400px; }
+
+#pac-input:focus {
+  border-color: #4d90fe; }
+
+#title {
+  color: #fff;
+  background-color: #4d90fe;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 6px 12px; }
+
+#target {
+  width: 345px; }
+
+.navbar-fixed-bottom {
+  margin-top: 20px; }
+
+.navbar-fixed-top, .navbar-fixed-bottom {
+  position: fixed; }
+
+.navbar-fixed-bottom {
+  bottom: 0; }
+
+.navbar-fixed-top, .navbar-fixed-bottom {
+  left: 0;
+  margin-bottom: 0;
+  right: 0;
+  z-index: 1030; }
+
+.navbar {
+  overflow: visible; }
+
+div.box-relative {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%; }
+
+#camera-filter {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 320px;
+  height: auto;
+  overflow: hidden;
+  background: white;
+  padding: 5px;
+  z-index: 3;
+  box-sizing: border-box;
+  height: 36px; }
+
+#camera-filter div.expand {
+  height: 32px;
+  float: right;
+  width: 32px;
+  clear: both; }
+
+#camera-filter div.expand i {
+  font-size: 200%;
+  margin-top: 2px;
+  display: inline-block; }
+
+#camera-filter label {
+  width: 100%; }
+
+#camera-filter select {
+  width: 100%;
+  padding: 5px; }
+
+#camera-filter input[type="text"] {
+  width: 100%;
+  padding: 5px; }
+
+#camera-filter .center {
+  text-align: center; }
+

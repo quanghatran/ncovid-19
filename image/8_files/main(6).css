@@ -1,0 +1,31 @@
+.aui .w96p {
+  width: 96%; }
+
+.aui .w46p {
+  width: 46%; }
+
+.aui .btn-rst {
+  padding: 4px 12px;
+  font-size: 14px; }
+
+.list-menu {
+  background-color: whitesmoke;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+  margin-bottom: 20px;
+  min-height: 20px; }
+  .list-menu .menu-header {
+    background-color: #f6f6f6;
+    background-image: linear-gradient(to bottom, #f9f9f9, #f3f3f3);
+    background-repeat: repeat-x;
+    border-radius: 2px;
+    height: 47px;
+    line-height: 48px;
+    text-align: center;
+    border-bottom: 1px solid #ddd; }
+
+#container {
+  width: 100%;
+  height: auto; }
+
